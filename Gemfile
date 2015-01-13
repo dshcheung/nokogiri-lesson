@@ -31,4 +31,7 @@ gem 'devise'
 # Debugger tools
 gem 'better_errors'
 gem 'binding_of_caller'
-
+# Scrapper
+gem 'nokogiri'
+# Allow key sending when scrapping a site with infinite scroll
+gem 'watir-webdriver'

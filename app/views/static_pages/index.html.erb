@@ -1,0 +1,6 @@
+<h1>All Companies</h1>
+<% @companies.each do |company| %>
+  <div>
+    <%= link_to company.name, company %>
+  </div>
+<% end %>
